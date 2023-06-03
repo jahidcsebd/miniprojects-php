@@ -13,7 +13,7 @@
 <body>
     <div class="wrapper">
         <header>Send us a Message</header>
-        <form action="#">
+        <form action="message.php" method="post">
             <div class="dbl-field">
                 <div class="field">
                     <input type="text" name="name" placeholder="Enter your name">
@@ -39,7 +39,7 @@
                 <i class="material-icons">message</i>
             </div>
             <div class="button-area">
-                <button type="submit">Send Message</button>
+                <button type="submit" name="submit" >Send Message</button>
                 <span></span>
             </div>
         </form>
